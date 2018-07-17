@@ -1,0 +1,72 @@
+body{
+	background-color: #F0F0F0 ;
+}
+
+.navbar{
+	background-color: #3f72af;
+}
+
+.photoPublication{
+	box-shadow: 1px 2px 8px grey ;
+
+}
+
+.textarea{
+	box-shadow: 1px 1px 1px grey;
+}
+
+p{
+	font-family: "Arial";
+	 }
+
+h2{
+	font-family: "Arial";
+}	 
+
+h4{
+	font-family: 'Indie Flower','Arial', cursive; 
+}
+
+.cursor{
+	animation-name: cursorActive;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+}
+
+@keyframes cursorActive{
+	0% { opacity: 1 }
+	100% {opacity: 0;}
+}
+
+
+.experiencia{
+	background-color: #F0F0F0 ;	
+}
+
+.titule{
+	font-family: 'Indie Flower','Arial', cursive; 
+}
+
+.jumContacto{
+	background-image: url(contacto.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #dbe2ef; 
+}
+
+.header-jumb {
+	background-color: rgba(60,60,60,.4);
+	height: 100%;
+}
+
+.jumTrayectoria{
+	background-image: url(back.jpg);
+	background-size: auto;
+	background-position: center;
+	background-color: #dbe2ef; 	
+}
+
+.barContacto{
+	background-color: #112d4e ;
+}
+

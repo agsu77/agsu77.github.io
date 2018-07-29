@@ -132,7 +132,7 @@
 					<div class="row">
 						<div class=" col-md-12 col-sm-12">
 							<h4>Futbol.</h4>
-							<p class="m-2 text-center">Mi experiencia con el fútbol empezó en la etapa de la niñez jugando al baby fútbol en C.S Villa Garcia, con el tiempo esa etapa finalizó y comencé a practicar en las juveniles de C.S.D Los Zorzales donde llegue con 14 años  hoy en día sin ser jugador formo parte de un plantel como ayudante técnico, despues de varios fines de semana pasados en la cancha, varios vestuarios, muchos viajes y muchos valores aprendidos puedo decir que el fútbol para mi es algo mas que un deporte, es una manera de despejar la mente,de sociabilizar, me enseño a formar parte de un grupo.
+							<p class="m-2 text-center">Mi experiencia con el fútbol empezó en la etapa de la niñez jugando al baby fútbol en C.S Villa Garcia, con el tiempo esa etapa finalizó y comencé a practicar en las juveniles de C.S.D Los Zorzales donde llegue con 14 años  hoy en día sin ser jugador formo parte de un plantel como ayudante técnico, despues de varios fines de semana pasados en la cancha, varios vestuarios, muchos viajes y muchos valores aprendidos puedo decir que el fútbol para mi es algo mas que un deporte, es una manera de despejar la mente,fue un metodo de sociabilizacion con muchos de los que hoy son mis amigos, me enseño a formar parte de un grupo.
 							</p>
 						</div> <! end futbol >
 						<div class="col-md-12 col-sm-12">
@@ -160,25 +160,26 @@
             <p class="lead text-center text-white">Quieres trabajar conmigo?</p>
             <p class="text-white"> Si decides trabajar conmigo ten por seguro que vas a recibir profesionalismo, honestidad,calidad y pasion... si quieres contactarte conmigo enviame un mensaje atravez del formulario de contacto. </p>
           </div>
-          <form class="p-1 container">
+          <form class="p-1 container" method="POST" action="https://formspree.io/arodriguez4@estudiante.ceibal.edu.uy">
             <div class="form-group">
               <label for="name" class="text-white col-form-label">Nombre</label>
-              <input class="form-control" id="name" type="text">
+              <input class="form-control" id="name" name="name" autocomplete="false" type="text" placeholder="Your name">
             </div>
             <div class="form-group">
               <label for="email" class="text-white col-form-label">Email</label>
-              <input class="form-control" id="email" type="text">
+              <input class="form-control" id="email" type="email" autocomplete="false" name="email" placeholder="Your email">
+              <input type="hidden" name="_subject" value="Website contact" />
             </div>
             <div class="form-group">
               <label for="mensj" class="text-white col-form-label">Mensaje</label>
-              <textarea class="form-control" id="mensj"></textarea>
+              <textarea class="form-control" id="mensj" name="message" autocomplete="false" placeholder="Your message"></textarea>
             </div>  
             <button type="submit" id="btn-form" class="btn btn-outline-success">Enviar</button>
           </form> 
-          <footer class="bg-light">
+          <footer class="container">
             <div class="row">
               <div class="col-12">
-                <div class="container d-inline">
+                <div class="text-center">
                   <a href="https://github.com/agsu77"> 
                     <img src="imagenes/github.svg" class="img-fluid " width="60px">
                   </a>
@@ -186,7 +187,7 @@
                     <img src="imagenes/linkedin.svg" class="img-fluid " width="60px">
                   </a>
                 </div>
-                <small class="">Agsu 2018 &copy</small>
+                <small class="text-white float-left">Agsu 2018 &copy</small>
               </div>
             </div><!end row>
           </footer>

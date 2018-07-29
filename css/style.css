@@ -28,16 +28,30 @@ h4{
 }
 
 .cursor{
-	animation-name: cursorActive;
+	animation-name: opacidad;
 	animation-iteration-count: infinite;
 	animation-duration: 1s;
 }
 
-@keyframes cursorActive{
-	0% { opacity: 1 }
-	100% {opacity: 0;}
+
+@keyframes opacidad{
+	0%{opacity: 0}
+	100%{opacity: 1}
 }
 
+
+.imgSection{
+	animation-name: opacidad;
+	animation-duration: 4s;
+	animation-play-state: paused;
+}
+
+.imgPlan{
+	animation-name: opacidad;
+	animation-duration: 5s;
+	animation-play-state: paused;
+
+}
 
 .experiencia{
 	background-color: #F0F0F0 ;	

@@ -2,6 +2,14 @@ body{
 	background-color: #F0F0F0 ;
 }
 
+.linkname{
+	color: rgb(0,0,0);
+}
+
+.list-group-flush li{
+	background-color: #F0F0F0 ;
+}
+
 .navbar{
 	background-color: #3f72af;
 }

@@ -54,6 +54,10 @@ h4{
 	animation-play-state: paused;
 }
 
+.list-group-flush{
+	font-family: 'Indie Flower','Arial', cursive;
+}
+
 .imgPlan{
 	animation-name: opacidad;
 	animation-duration: 5s;
@@ -65,7 +69,7 @@ h4{
 	background-color: #F0F0F0 ;	
 }
 
-.titule{
+.title{
 	font-family: 'Indie Flower','Arial', cursive; 
 }
 
